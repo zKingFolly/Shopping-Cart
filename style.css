@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  letter-spacing: -1px;
+  padding: 5px 0;
+  margin-bottom: 2px;
+}
+p {
+  justify-self: center;
+  font-family: cursive;
+  font-size: large;
+  color: rgb(8, 199, 199);
+}
+#productsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 280px;
+  width: 33svw;
+}
+#product {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  background-color: aqua;
+  color: white;
+  font-size: large;
+  padding: 3px 0;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  background-color: rgb(44, 219, 219);
+  color: white;
+  font-size: large;
+  padding: 3px 0;
+  border: none;
+}
+button:hover {
+  background-color: rgb(38, 203, 203);
+  cursor: pointer;
+}
