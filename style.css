@@ -3,31 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #545050;
+}
 header {
   display: flex;
   font-size: 40px;
   justify-content: center;
   align-items: center;
-  background-color: orange;
-  color: white;
+  color: #ffffff;
   letter-spacing: -1px;
   padding: 5px 0;
   margin-bottom: 2px;
 }
-p {
+#info {
   justify-self: center;
   font-family: cursive;
   font-size: large;
-  color: rgb(8, 199, 199);
+  color: #e6e8e6;
+  line-height: 1.5;
 }
 #productsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 0 10px #e6e8e6;
+  margin: 5px 0;
 }
 img {
-  height: 280px;
-  width: 33svw;
+  height: 240px;
 }
 #product {
   display: flex;
@@ -38,7 +41,7 @@ span {
   justify-content: center;
   align-content: center;
   font-weight: bold;
-  background-color: aqua;
+  background-color: #ced0ce;
   color: white;
   font-size: large;
   padding: 3px 0;
@@ -48,13 +51,24 @@ button {
   justify-content: center;
   align-content: center;
   font-weight: bold;
-  background-color: rgb(44, 219, 219);
+  background-color: #f32821;
   color: white;
   font-size: large;
   padding: 3px 0;
   border: none;
 }
 button:hover {
-  background-color: rgb(38, 203, 203);
+  background-color: #8f1919;
+
   cursor: pointer;
+}
+#cartH {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  letter-spacing: -1px;
+  padding: 5px 0;
+  margin-bottom: 2px;
 }
