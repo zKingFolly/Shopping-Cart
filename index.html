@@ -9,25 +9,37 @@
   <body>
     <header>Top-Mart</header>
     <p id="info">Your one way stop to affordable Tops</p>
+
     <div id="productsContainer">
-      <div id="product">
+      <div class="product">
         <img src="images/hoodie.png" />
-        <span id="price">$30</span>
-        <button id="add">+</button>
+        <p class="details">
+          <span class="name">Black Hoodie </span><span class="price">$30</span>
+        </p>
+        <button class="add">+</button>
       </div>
-      <div id="product">
+
+      <div class="product">
         <img src="images/green-khaki.png" />
-        <span id="price">$40</span>
-        <button id="add">+</button>
+        <p class="details">
+          <span class="name">Green Khaki</span><span class="price">$45</span>
+        </p>
+
+        <button class="add">+</button>
       </div>
-      <div id="product">
+      <div class="product">
         <img src="images/jeans-top.png" />
-        <span id="price">$20</span>
-        <button id="add">+</button>
+        <p class="details">
+          <span class="name">Jeans Top</span><span class="price">$35</span>
+        </p>
+
+        <button class="add">+</button>
       </div>
     </div>
-    <div id="container">
-      <p id="cartH">Cart</p>
+    <p id="cartH">Cart</p>
+    <div id="cartItems">
+      <ul id="ul"></ul>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

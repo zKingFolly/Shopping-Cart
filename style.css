@@ -32,20 +32,21 @@ header {
 img {
   height: 240px;
 }
-#product {
+.product {
   display: flex;
   flex-direction: column;
 }
-span {
+.details {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  font-weight: bold;
+  justify-content: space-between;
   background-color: #ced0ce;
-  color: white;
   font-size: large;
-  padding: 3px 0;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
 }
+
 button {
   display: flex;
   justify-content: center;
@@ -53,7 +54,7 @@ button {
   font-weight: bold;
   background-color: #f32821;
   color: white;
-  font-size: large;
+  font-size: larger;
   padding: 3px 0;
   border: none;
 }
