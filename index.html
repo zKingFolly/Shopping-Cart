@@ -3,42 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CART</title>
+    <title>Top Mart</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Top-Mart</header>
-    <p id="info">Your one way stop to affordable Tops</p>
+    <header>Top Mart</header>
+    <p id="tagline">Your one way stop to affordable clothing</p>
 
-    <div id="productsContainer">
-      <div class="product">
-        <img src="images/hoodie.png" />
-        <p class="details">
-          <span class="name">Black Hoodie </span><span class="price">$30</span>
+    <div id="products-grid">
+      <div class="product-card">
+        <img class="product-image" src="images/hoodie.png" />
+        <p class="product-info">
+          <span class="product-name">Black Hoodie </span
+          ><span class="product-price">$30</span>
         </p>
-        <button class="add">+</button>
+        <button class="add-to-cart-btn">+</button>
       </div>
 
-      <div class="product">
-        <img src="images/green-khaki.png" />
-        <p class="details">
-          <span class="name">Green Khaki</span><span class="price">$45</span>
+      <div class="product-card">
+        <img class="product-image" src="images/green-khaki.png" />
+        <p class="product-info">
+          <span class="product-name">Green Khaki</span
+          ><span class="product-price">$45</span>
         </p>
 
-        <button class="add">+</button>
+        <button class="add-to-cart-btn">+</button>
       </div>
-      <div class="product">
-        <img src="images/jeans-top.png" />
-        <p class="details">
-          <span class="name">Jeans Top</span><span class="price">$35</span>
+      <div class="product-card">
+        <img class="product-image" src="images/jeans-top.png" />
+        <p class="product-info">
+          <span class="product-name">Jeans Top</span
+          ><span class="product-price">$35</span>
         </p>
 
-        <button class="add">+</button>
+        <button class="add-to-cart-btn">+</button>
       </div>
     </div>
-    <p id="cartH">Cart</p>
-    <div id="cartItems">
-      <ul id="ul"></ul>
+    <h2 id="cart-heading">Cart</h2>
+    <div id="cart-container">
+      <ul id="cart-items-list"></ul>
+      <div id="cart-summary">
+        <div id="total-info">
+          <span>Total:</span>
+          <span id="total-price">$0.00</span>
+        </div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+      </div>
     </div>
     <script src="main.js"></script>
   </body>
